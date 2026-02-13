@@ -20,6 +20,8 @@ export const SignIn = ({ extraClass = "" }) => {
 
   const history = useHistory();
 
+  console.log(user)
+
   const onChangeInput = (e) => {
     setUserData({
       ...userData,
